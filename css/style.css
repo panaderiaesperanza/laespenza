@@ -1,0 +1,314 @@
+* {
+  margin:0;
+  padding:0;
+  border:0;
+}
+
+marquee{
+  font-family: cursive;
+  color: #B96D04;
+}
+
+body {
+  background: #FFBF66;
+}
+
+p{
+  color: #B2721B;
+  font-size: 145%;
+  line-height: 155%;
+  padding: 3%;
+  text-indent: 2%;
+  text-align: center;
+  font-family: cursive;
+}
+
+h3 {
+  font-size: 160%;
+  line-height: 155%;
+  font-weight: 500;
+  color: #7A4C0D;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0;
+  font-family: cursive;
+}
+
+a {
+  color: #524c56;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: cursive;
+}
+a:hover {
+  color: #fff;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  margin-bottom: auto;
+}
+
+#wraper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#banner-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 0 3% 0;
+}
+
+header {
+  width: 100%;
+  height: 150px;
+  top: 0;
+  left: 0;
+}
+
+header #logo img{
+  margin: 1%;
+  float: left;
+  width: 110px;
+}
+
+/* Navigation */
+nav {
+  float: right;
+  padding: 50px 0 0 0;
+}
+
+#menu-icon {
+  display: none;
+  font-size: 50px;
+}
+
+ul {
+  list-style: none;
+}
+
+nav ul li {
+  font-size: 120%;
+  display: inline-block;
+  float: left;
+  padding: 6px;
+}
+
+nav ul li a {
+  color: #B96D04;
+}
+
+.current {
+  color:#7A4C0D;
+}
+
+.one-two {
+  width: 30%;
+  float: left;
+  padding: 10px;
+  text-align: center;
+}
+.one {
+  text-align: center;
+  width: 32%;
+  padding: 0 15% 5% 33%;
+}
+
+.one-five {
+  width: 32%;
+  float: left;
+  padding: 3% 0 0 0;
+  text-align: center;
+}
+
+.one-six {
+  width: 35%;
+  float: left;
+  text-align: center;
+  padding: 5% 0 0 10%;
+}
+
+.icon-wrap {
+  margin: 0 auto;
+  width: 120px;
+  height: 120px;
+  background-color: #7A4C0D;
+  border-radius: 125px;
+  text-align: center;
+  margin-top: 3%;
+}
+
+.icon-wrap i{
+text-align: center;
+color: #fff;
+font-size: 450%;
+padding: 20%
+}
+
+.left-col {
+  float: right;
+  margin: 0 auto;
+  width: 70%;
+  height: auto;
+  padding: 1%;
+}
+
+.sidebar {
+  float: right;
+  margin: 0 auto;
+  width: 25%:auto;
+  height: auto;
+  padding: 1%;
+}
+
+footer {
+  background: #7A4C0D;
+  width: 100%;
+  overflow: auto;
+}
+
+.icon-text{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.icon-text-icon {
+  float: left;
+  width: 20%;
+  padding: 4% 4% 2% 0;
+}
+
+.footer-nav {
+  text-align: right;
+}
+
+.footer-nav a {
+  font-size: 160%;
+  color: #fff;
+  font-weight: 300;
+}
+
+.footer-nav a:hover {
+  color: #fff;
+}
+.social {
+  text-align: center;
+}
+
+.social li {
+  display: inline;
+}
+
+.social i {
+  font-size: 420%;
+  margin: 1%;
+  padding: 5%;
+  color: #fff;
+}
+
+.footer-second {
+  border-top: 1px solid color #fff;
+  text-align: center;
+  margin: 0;
+}
+
+.footer-second p, .footer-second a {
+  text-align: center;
+  color: #fff;
+  font: 160%;
+  line-height: 165%;
+}
+
+@media screen and (max-width: 768px) {
+  p {
+    font-size: 130%;
+  }
+  h3 {
+    font-size: 150%;
+  }
+  header {
+    height: 80px;
+    position: relative;
+  }
+
+  header #logo {
+    margin: 15px 0 20px -25px;
+  }
+
+  #menu-icon {
+    display: inline-block;
+  }
+
+  nav ul, nav:active ul {
+    display: block;
+  }
+
+  nav:hover ul{
+    display: none;
+    z-index: 1000;
+    position: absolute;
+    padding: 120px;
+    background: #f5f5f5;
+    border: 1px solid #a5dbcd;
+    right: 20px;
+    width: 30%;
+    opacity: .95;
+  }
+
+  nav li {
+    text-align: center;
+    width: 100%;
+  }
+
+  .one-two {
+    float: left;
+    width: 100%;
+  }
+
+  .one-five {
+    float: left;
+    width: 100%;
+  }
+
+  .one-six {
+    float: left;
+    width: 100%;
+  }
+
+  .icon-wrap {
+    height: 80px;
+    width: 80px;
+    margin: 5%;
+  }
+
+  .icon-wrap i {
+    font-size: 250%;
+    padding-top: 25%;
+  }
+
+  .left-col {
+    width: 100%;
+    padding: 0;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+
+  .icon-text-icon {
+    width: 80%;
+    padding: 0 0 1% 0;
+    text-align: center;
+  }
+
+  .icon-text-text {
+    width: 80%;
+    padding: 0 0 1% 0;
+    font-size: 40%
+  }
+}
